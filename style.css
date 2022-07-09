@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+
+}
+
+.bar-icon{
+    display: none;
+}
+
+ul li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.presentation {
+    width: auto;
+    height: 60vh;
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: solid 5px rgb(78, 78, 78);
+}
+
+footer{
+    height: 20vh;
+    background-color: dodgerblue;
+}
+.rodape{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+
+    
+    ul{
+        display: none;
+    }
+
+    .bar-icon{
+        display: block;
+    }
+
+    header {
+
+       
+        justify-content: space-between;
+     
+    }
+
+    
+     }
